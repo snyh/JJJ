@@ -1,0 +1,264 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Entry	entry.hpp	/^struct Entry {$/;"	s
+Entry2	entry.hpp	/^struct Entry2 {$/;"	s
+Entry2::address	entry.hpp	/^    std::string address; \/\/乡镇$/;"	m	struct:Entry2	access:public
+Entry2::allowances	entry.hpp	/^    double allowances; \/\/补贴总计$/;"	m	struct:Entry2	access:public
+Entry2::number	entry.hpp	/^    int number; \/\/人数$/;"	m	struct:Entry2	access:public
+Entry2::prices	entry.hpp	/^    double prices; \/\/销售总计$/;"	m	struct:Entry2	access:public
+Entry::address	entry.hpp	/^    std::string  address; \/\/地址$/;"	m	struct:Entry	access:public
+Entry::allowance	entry.hpp	/^    std::string allowance; \/\/补贴$/;"	m	struct:Entry	access:public
+Entry::cat	entry.hpp	/^    std::string cat; \/\/产品种类$/;"	m	struct:Entry	access:public
+Entry::id	entry.hpp	/^    int id; $/;"	m	struct:Entry	access:public
+Entry::idcard	entry.hpp	/^    std::string idcard; \/\/身份证$/;"	m	struct:Entry	access:public
+Entry::invoice	entry.hpp	/^    std::string invoice; \/\/发票$/;"	m	struct:Entry	access:public
+Entry::name	entry.hpp	/^    std::string name; \/\/购买人$/;"	m	struct:Entry	access:public
+Entry::name2	entry.hpp	/^    std::string name2; \/\/领款人$/;"	m	struct:Entry	access:public
+Entry::passport	entry.hpp	/^    std::string passport; \/\/户口$/;"	m	struct:Entry	access:public
+Entry::phone	entry.hpp	/^    std::string phone; \/\/电话$/;"	m	struct:Entry	access:public
+Entry::price	entry.hpp	/^    std::string price; \/\/售价$/;"	m	struct:Entry	access:public
+Entry::product_id	entry.hpp	/^    std::string product_id; \/\/产品标号$/;"	m	struct:Entry	access:public
+Entry::product_n	entry.hpp	/^    std::string product_n; \/\/产品编号$/;"	m	struct:Entry	access:public
+Entry::time	entry.hpp	/^    std::string time; \/\/受理时间$/;"	m	struct:Entry	access:public
+Entry::xz	entry.hpp	/^    XZs xz;$/;"	m	struct:Entry	access:public
+JJJmaindialog	JJJ.hpp	/^  JJJmaindialog( wxWindow* parent );$/;"	p	class:JJJmaindialog	access:public	signature:( wxWindow* parent )
+JJJmaindialog	JJJ.hpp	/^class JJJmaindialog : public maindialog$/;"	c	inherits:maindialog
+JJJmaindialog	main.cpp	/^JJJmaindialog::JJJmaindialog( wxWindow* parent )$/;"	f	class:JJJmaindialog	signature:( wxWindow* parent )
+JJJmaindialog::JJJmaindialog	JJJ.hpp	/^  JJJmaindialog( wxWindow* parent );$/;"	p	class:JJJmaindialog	access:public	signature:( wxWindow* parent )
+JJJmaindialog::JJJmaindialog	main.cpp	/^JJJmaindialog::JJJmaindialog( wxWindow* parent )$/;"	f	class:JJJmaindialog	signature:( wxWindow* parent )
+JJJmaindialog::OnGridLabelLeftDClick	JJJ.hpp	/^  void OnGridLabelLeftDClick(wxGridEvent& event);$/;"	p	class:JJJmaindialog	access:protected	signature:(wxGridEvent& event)
+JJJmaindialog::OnGridLabelLeftDClick	main.cpp	/^void JJJmaindialog::OnGridLabelLeftDClick(wxGridEvent& event)$/;"	f	class:JJJmaindialog	signature:(wxGridEvent& event)
+JJJmaindialog::b_clearOnButtonClick	JJJ.hpp	/^  void b_clearOnButtonClick( wxCommandEvent& event );$/;"	p	class:JJJmaindialog	access:protected	signature:( wxCommandEvent& event )
+JJJmaindialog::b_clearOnButtonClick	main.cpp	/^void JJJmaindialog::b_clearOnButtonClick( wxCommandEvent& event )$/;"	f	class:JJJmaindialog	signature:( wxCommandEvent& event )
+JJJmaindialog::b_docOnButtonClick	JJJ.hpp	/^  void b_docOnButtonClick( wxCommandEvent& event );$/;"	p	class:JJJmaindialog	access:protected	signature:( wxCommandEvent& event )
+JJJmaindialog::b_docOnButtonClick	main.cpp	/^void JJJmaindialog::b_docOnButtonClick( wxCommandEvent& event )$/;"	f	class:JJJmaindialog	signature:( wxCommandEvent& event )
+JJJmaindialog::b_listenOnButtonClick	JJJ.hpp	/^  void b_listenOnButtonClick(wxCommandEvent& event);$/;"	p	class:JJJmaindialog	access:protected	signature:(wxCommandEvent& event)
+JJJmaindialog::b_listenOnButtonClick	main.cpp	/^void JJJmaindialog::b_listenOnButtonClick(wxCommandEvent& event)$/;"	f	class:JJJmaindialog	signature:(wxCommandEvent& event)
+JJJmaindialog::b_printOnButtonClick	JJJ.hpp	/^  void b_printOnButtonClick( wxCommandEvent& event );$/;"	p	class:JJJmaindialog	access:protected	signature:( wxCommandEvent& event )
+JJJmaindialog::b_printOnButtonClick	main.cpp	/^void JJJmaindialog::b_printOnButtonClick(wxCommandEvent& event)$/;"	f	class:JJJmaindialog	signature:(wxCommandEvent& event)
+JJJmaindialog::b_table1OnButtonClick	JJJ.hpp	/^  void b_table1OnButtonClick( wxCommandEvent& event );$/;"	p	class:JJJmaindialog	access:protected	signature:( wxCommandEvent& event )
+JJJmaindialog::b_table1OnButtonClick	main.cpp	/^void JJJmaindialog::b_table1OnButtonClick( wxCommandEvent& event )$/;"	f	class:JJJmaindialog	signature:( wxCommandEvent& event )
+JJJmaindialog::c_allOnCheckBox	JJJ.hpp	/^  void c_allOnCheckBox( wxCommandEvent& event );$/;"	p	class:JJJmaindialog	access:protected	signature:( wxCommandEvent& event )
+JJJmaindialog::c_allOnCheckBox	main.cpp	/^void JJJmaindialog::c_allOnCheckBox( wxCommandEvent& event )$/;"	f	class:JJJmaindialog	signature:( wxCommandEvent& event )
+JJJmaindialog::dir_path	JJJ.hpp	/^  wxFileName dir_path;$/;"	m	class:JJJmaindialog	access:private
+JJJmaindialog::draw_entry	JJJ.hpp	/^  void draw_entry(Entry);$/;"	p	class:JJJmaindialog	access:protected	signature:(Entry)
+JJJmaindialog::draw_entry	main.cpp	/^void JJJmaindialog::draw_entry(Entry entry)$/;"	f	class:JJJmaindialog	signature:(Entry entry)
+JJJmaindialog::entrys	JJJ.hpp	/^  std::vector<Entry> entrys;$/;"	m	class:JJJmaindialog	access:private
+JJJmaindialog::entrys2	JJJ.hpp	/^  std::vector<Entry2> entrys2;$/;"	m	class:JJJmaindialog	access:private
+JJJmaindialog::get_draw_entry	JJJ.hpp	/^  void get_draw_entry(std::string);$/;"	p	class:JJJmaindialog	access:protected	signature:(std::string)
+JJJmaindialog::get_draw_entry	main.cpp	/^void JJJmaindialog::get_draw_entry(std::string f)$/;"	f	class:JJJmaindialog	signature:(std::string f)
+JJJmaindialog::get_entry	JJJ.hpp	/^  Entry get_entry(std::string);$/;"	p	class:JJJmaindialog	access:protected	signature:(std::string)
+JJJmaindialog::get_entry	strip.cpp	/^Entry JJJmaindialog::get_entry(string file)$/;"	f	class:JJJmaindialog	signature:(string file)
+JJJmaindialog::get_select_file	JJJ.hpp	/^  void get_select_file(std::vector<wxString>& files);$/;"	p	class:JJJmaindialog	access:protected	signature:(std::vector<wxString>& files)
+JJJmaindialog::grid1	JJJ.hpp	/^  wxGrid *grid1, *grid2;$/;"	m	class:JJJmaindialog	access:private
+JJJmaindialog::grid2	JJJ.hpp	/^  wxGrid *grid1, *grid2;$/;"	m	class:JJJmaindialog	access:private
+JJJmaindialog::m_grid1OnGridCellLeftDClick	JJJ.hpp	/^  void m_grid1OnGridCellLeftDClick(wxGridEvent& event);$/;"	p	class:JJJmaindialog	access:protected	signature:(wxGridEvent& event)
+JJJmaindialog::m_grid1OnGridCellLeftDClick	main.cpp	/^void JJJmaindialog::m_grid1OnGridCellLeftDClick(wxGridEvent& event)$/;"	f	class:JJJmaindialog	signature:(wxGridEvent& event)
+JJJmaindialog::m_notebookOnNotebookPageChanged	JJJ.hpp	/^  void m_notebookOnNotebookPageChanged(wxNotebookEvent& event);$/;"	p	class:JJJmaindialog	access:protected	signature:(wxNotebookEvent& event)
+JJJmaindialog::m_notebookOnNotebookPageChanged	main.cpp	/^void JJJmaindialog::m_notebookOnNotebookPageChanged(wxNotebookEvent& event)$/;"	f	class:JJJmaindialog	signature:(wxNotebookEvent& event)
+JJJmaindialog::m_select_xz	JJJ.hpp	/^  void m_select_xz(wxMouseEvent& e);$/;"	p	class:JJJmaindialog	access:protected	signature:(wxMouseEvent& e)
+JJJmaindialog::m_select_xz	main.cpp	/^void JJJmaindialog::m_select_xz(wxMouseEvent& e)$/;"	f	class:JJJmaindialog	signature:(wxMouseEvent& e)
+JJJmaindialog::maindialogOnClose	JJJ.hpp	/^  void maindialogOnClose( wxCloseEvent& event );$/;"	p	class:JJJmaindialog	access:protected	signature:( wxCloseEvent& event )
+JJJmaindialog::maindialogOnClose	main.cpp	/^void JJJmaindialog::maindialogOnClose( wxCloseEvent& event )$/;"	f	class:JJJmaindialog	signature:( wxCloseEvent& event )
+JJJmaindialog::notifyfun	JJJ.hpp	/^  void notifyfun(int n, std::string f);$/;"	p	class:JJJmaindialog	access:protected	signature:(int n, std::string f)
+JJJmaindialog::notifyfun	main.cpp	/^void JJJmaindialog::notifyfun(int n, std::string f)$/;"	f	class:JJJmaindialog	signature:(int n, std::string f)
+JJJmaindialog::page3	JJJ.hpp	/^  wxHtmlWindow *page3;$/;"	m	class:JJJmaindialog	access:private
+JJJmaindialog::selected_xz	JJJ.hpp	/^  XZs selected_xz;$/;"	m	class:JJJmaindialog	access:private
+MyApp	main.cpp	/^IMPLEMENT_APP(MyApp);$/;"	v
+MyApp	main.cpp	/^class MyApp: public wxApp{$/;"	c	file:	inherits:wxApp
+MyApp::OnInit	main.cpp	/^  virtual bool OnInit();$/;"	p	class:MyApp	file:	access:public	signature:()
+MyApp::OnInit	main.cpp	/^bool MyApp::OnInit()$/;"	f	class:MyApp	signature:()
+NotifyFun	dir.cpp	/^typedef boost::function<void(int, string)> NotifyFun;$/;"	t	file:
+OnGridLabelLeftDClick	JJJ.hpp	/^  void OnGridLabelLeftDClick(wxGridEvent& event);$/;"	p	class:JJJmaindialog	access:protected	signature:(wxGridEvent& event)
+OnGridLabelLeftDClick	main.cpp	/^void JJJmaindialog::OnGridLabelLeftDClick(wxGridEvent& event)$/;"	f	class:JJJmaindialog	signature:(wxGridEvent& event)
+OnInit	main.cpp	/^  virtual bool OnInit();$/;"	p	class:MyApp	file:	access:public	signature:()
+OnInit	main.cpp	/^bool MyApp::OnInit()$/;"	f	class:MyApp	signature:()
+Verify	dir.cpp	/^class Verify{$/;"	c	file:
+Verify::md5s	dir.cpp	/^    vector<string> md5s;$/;"	m	class:Verify	file:	access:private
+Verify::verify	dir.cpp	/^    bool verify(string filename){$/;"	f	class:Verify	access:public	signature:(string filename)
+XZ_0	gui.h	26;"	d
+XZ_1	gui.h	27;"	d
+XZ_10	gui.h	36;"	d
+XZ_11	gui.h	37;"	d
+XZ_12	gui.h	38;"	d
+XZ_13	gui.h	39;"	d
+XZ_14	gui.h	40;"	d
+XZ_2	gui.h	28;"	d
+XZ_3	gui.h	29;"	d
+XZ_4	gui.h	30;"	d
+XZ_5	gui.h	31;"	d
+XZ_6	gui.h	32;"	d
+XZ_7	gui.h	33;"	d
+XZ_8	gui.h	34;"	d
+XZ_9	gui.h	35;"	d
+XZ_BF	entry.hpp	/^    XZ_BF, $/;"	e	enum:XZs
+XZ_CD	entry.hpp	/^    XZ_CD,$/;"	e	enum:XZs
+XZ_FC	entry.hpp	/^    XZ_FC,$/;"	e	enum:XZs
+XZ_FS	entry.hpp	/^    XZ_FS, $/;"	e	enum:XZs
+XZ_JG	entry.hpp	/^    XZ_JG,$/;"	e	enum:XZs
+XZ_LD	entry.hpp	/^    XZ_LD=0,$/;"	e	enum:XZs
+XZ_LG	entry.hpp	/^    XZ_LG,$/;"	e	enum:XZs
+XZ_MZ	entry.hpp	/^    XZ_MZ,$/;"	e	enum:XZs
+XZ_NC	entry.hpp	/^    XZ_NC, $/;"	e	enum:XZs
+XZ_NULL	entry.hpp	/^    XZ_NULL,$/;"	e	enum:XZs
+XZ_SIZE	entry.hpp	/^    XZ_SIZE,$/;"	e	enum:XZs
+XZ_TL	entry.hpp	/^    XZ_TL,$/;"	e	enum:XZs
+XZ_WYZ	entry.hpp	/^    XZ_WYZ,$/;"	e	enum:XZs
+XZ_XD	entry.hpp	/^    XZ_XD, $/;"	e	enum:XZs
+XZ_XZ	entry.hpp	/^    XZ_XZ,$/;"	e	enum:XZs
+XZ_YD	entry.hpp	/^    XZ_YD,$/;"	e	enum:XZs
+XZ_ZP	entry.hpp	/^    XZ_ZP,$/;"	e	enum:XZs
+XZs	entry.hpp	/^enum XZs {$/;"	g
+_RC_template	templ.cpp	/^boost::array<char, 13824> _RC_template = {$/;"	v
+__ENTRY_H__	entry.hpp	2;"	d
+__gui__	gui.h	9;"	d
+_r	excel.cpp	/^string _r(const string& col, const int row){$/;"	f	signature:(const string& col, const int row)
+address	entry.hpp	/^    std::string  address; \/\/地址$/;"	m	struct:Entry	access:public
+address	entry.hpp	/^    std::string address; \/\/乡镇$/;"	m	struct:Entry2	access:public
+allowance	entry.hpp	/^    std::string allowance; \/\/补贴$/;"	m	struct:Entry	access:public
+allowances	entry.hpp	/^    double allowances; \/\/补贴总计$/;"	m	struct:Entry2	access:public
+b_clearOnButtonClick	JJJ.hpp	/^  void b_clearOnButtonClick( wxCommandEvent& event );$/;"	p	class:JJJmaindialog	access:protected	signature:( wxCommandEvent& event )
+b_clearOnButtonClick	main.cpp	/^void JJJmaindialog::b_clearOnButtonClick( wxCommandEvent& event )$/;"	f	class:JJJmaindialog	signature:( wxCommandEvent& event )
+b_doc	gui.h	/^		wxButton* b_doc;$/;"	m	class:maindialog	access:protected
+b_docOnButtonClick	JJJ.hpp	/^  void b_docOnButtonClick( wxCommandEvent& event );$/;"	p	class:JJJmaindialog	access:protected	signature:( wxCommandEvent& event )
+b_docOnButtonClick	gui.h	/^		virtual void b_docOnButtonClick( wxCommandEvent& event ) { event.Skip(); }$/;"	f	class:maindialog	access:protected	signature:( wxCommandEvent& event )
+b_docOnButtonClick	main.cpp	/^void JJJmaindialog::b_docOnButtonClick( wxCommandEvent& event )$/;"	f	class:JJJmaindialog	signature:( wxCommandEvent& event )
+b_listen	gui.h	/^		wxButton* b_listen;$/;"	m	class:maindialog	access:protected
+b_listenOnButtonClick	JJJ.hpp	/^  void b_listenOnButtonClick(wxCommandEvent& event);$/;"	p	class:JJJmaindialog	access:protected	signature:(wxCommandEvent& event)
+b_listenOnButtonClick	gui.h	/^		virtual void b_listenOnButtonClick( wxCommandEvent& event ) { event.Skip(); }$/;"	f	class:maindialog	access:protected	signature:( wxCommandEvent& event )
+b_listenOnButtonClick	main.cpp	/^void JJJmaindialog::b_listenOnButtonClick(wxCommandEvent& event)$/;"	f	class:JJJmaindialog	signature:(wxCommandEvent& event)
+b_print	gui.h	/^		wxButton* b_print;$/;"	m	class:maindialog	access:protected
+b_printOnButtonClick	JJJ.hpp	/^  void b_printOnButtonClick( wxCommandEvent& event );$/;"	p	class:JJJmaindialog	access:protected	signature:( wxCommandEvent& event )
+b_printOnButtonClick	gui.h	/^		virtual void b_printOnButtonClick( wxCommandEvent& event ) { event.Skip(); }$/;"	f	class:maindialog	access:protected	signature:( wxCommandEvent& event )
+b_printOnButtonClick	main.cpp	/^void JJJmaindialog::b_printOnButtonClick(wxCommandEvent& event)$/;"	f	class:JJJmaindialog	signature:(wxCommandEvent& event)
+b_table1	gui.h	/^		wxButton* b_table1;$/;"	m	class:maindialog	access:protected
+b_table1OnButtonClick	JJJ.hpp	/^  void b_table1OnButtonClick( wxCommandEvent& event );$/;"	p	class:JJJmaindialog	access:protected	signature:( wxCommandEvent& event )
+b_table1OnButtonClick	gui.h	/^		virtual void b_table1OnButtonClick( wxCommandEvent& event ) { event.Skip(); }$/;"	f	class:maindialog	access:protected	signature:( wxCommandEvent& event )
+b_table1OnButtonClick	main.cpp	/^void JJJmaindialog::b_table1OnButtonClick( wxCommandEvent& event )$/;"	f	class:JJJmaindialog	signature:( wxCommandEvent& event )
+c_all	gui.h	/^		wxCheckBox* c_all;$/;"	m	class:maindialog	access:protected
+c_allOnCheckBox	JJJ.hpp	/^  void c_allOnCheckBox( wxCommandEvent& event );$/;"	p	class:JJJmaindialog	access:protected	signature:( wxCommandEvent& event )
+c_allOnCheckBox	gui.h	/^		virtual void c_allOnCheckBox( wxCommandEvent& event ) { event.Skip(); }$/;"	f	class:maindialog	access:protected	signature:( wxCommandEvent& event )
+c_allOnCheckBox	main.cpp	/^void JJJmaindialog::c_allOnCheckBox( wxCommandEvent& event )$/;"	f	class:JJJmaindialog	signature:( wxCommandEvent& event )
+cat	entry.hpp	/^    std::string cat; \/\/产品种类$/;"	m	struct:Entry	access:public
+dir_doc	gui.h	/^		wxStaticText* dir_doc;$/;"	m	class:maindialog	access:protected
+dir_path	JJJ.hpp	/^  wxFileName dir_path;$/;"	m	class:JJJmaindialog	access:private
+draw_entry	JJJ.hpp	/^  void draw_entry(Entry);$/;"	p	class:JJJmaindialog	access:protected	signature:(Entry)
+draw_entry	main.cpp	/^void JJJmaindialog::draw_entry(Entry entry)$/;"	f	class:JJJmaindialog	signature:(Entry entry)
+entrys	JJJ.hpp	/^  std::vector<Entry> entrys;$/;"	m	class:JJJmaindialog	access:private
+entrys2	JJJ.hpp	/^  std::vector<Entry2> entrys2;$/;"	m	class:JJJmaindialog	access:private
+get_draw_entry	JJJ.hpp	/^  void get_draw_entry(std::string);$/;"	p	class:JJJmaindialog	access:protected	signature:(std::string)
+get_draw_entry	main.cpp	/^void JJJmaindialog::get_draw_entry(std::string f)$/;"	f	class:JJJmaindialog	signature:(std::string f)
+get_entry	JJJ.hpp	/^  Entry get_entry(std::string);$/;"	p	class:JJJmaindialog	access:protected	signature:(std::string)
+get_entry	strip.cpp	/^Entry JJJmaindialog::get_entry(string file)$/;"	f	class:JJJmaindialog	signature:(string file)
+get_page3	entry.hpp	/^std::string get_page3(const char*);$/;"	p	signature:(const char*)
+get_page3	strip.cpp	/^string get_page3(const char* file)$/;"	f	signature:(const char* file)
+get_select_file	JJJ.hpp	/^  void get_select_file(std::vector<wxString>& files);$/;"	p	class:JJJmaindialog	access:protected	signature:(std::vector<wxString>& files)
+grid1	JJJ.hpp	/^  wxGrid *grid1, *grid2;$/;"	m	class:JJJmaindialog	access:private
+grid2	JJJ.hpp	/^  wxGrid *grid1, *grid2;$/;"	m	class:JJJmaindialog	access:private
+id	entry.hpp	/^    int id; $/;"	m	struct:Entry	access:public
+idcard	entry.hpp	/^    std::string idcard; \/\/身份证$/;"	m	struct:Entry	access:public
+init_dir	dir.cpp	/^int init_dir(string dir, boost::function<void(string)> fun)$/;"	f	signature:(string dir, boost::function<void(string)> fun)
+init_dir	main.cpp	/^int init_dir(std::string, boost::function<void(string)>);$/;"	p	file:	signature:(std::string, boost::function<void(string)>)
+invoice	entry.hpp	/^    std::string invoice; \/\/发票$/;"	m	struct:Entry	access:public
+m_grid1OnGridCellLeftDClick	JJJ.hpp	/^  void m_grid1OnGridCellLeftDClick(wxGridEvent& event);$/;"	p	class:JJJmaindialog	access:protected	signature:(wxGridEvent& event)
+m_grid1OnGridCellLeftDClick	main.cpp	/^void JJJmaindialog::m_grid1OnGridCellLeftDClick(wxGridEvent& event)$/;"	f	class:JJJmaindialog	signature:(wxGridEvent& event)
+m_notebook	gui.h	/^		wxNotebook* m_notebook;$/;"	m	class:maindialog	access:protected
+m_notebookOnNotebookPageChanged	JJJ.hpp	/^  void m_notebookOnNotebookPageChanged(wxNotebookEvent& event);$/;"	p	class:JJJmaindialog	access:protected	signature:(wxNotebookEvent& event)
+m_notebookOnNotebookPageChanged	gui.h	/^		virtual void m_notebookOnNotebookPageChanged( wxNotebookEvent& event ) { event.Skip(); }$/;"	f	class:maindialog	access:protected	signature:( wxNotebookEvent& event )
+m_notebookOnNotebookPageChanged	main.cpp	/^void JJJmaindialog::m_notebookOnNotebookPageChanged(wxNotebookEvent& event)$/;"	f	class:JJJmaindialog	signature:(wxNotebookEvent& event)
+m_select_xz	JJJ.hpp	/^  void m_select_xz(wxMouseEvent& e);$/;"	p	class:JJJmaindialog	access:protected	signature:(wxMouseEvent& e)
+m_select_xz	gui.h	/^		virtual void m_select_xz( wxMouseEvent& event ) { event.Skip(); }$/;"	f	class:maindialog	access:protected	signature:( wxMouseEvent& event )
+m_select_xz	main.cpp	/^void JJJmaindialog::m_select_xz(wxMouseEvent& e)$/;"	f	class:JJJmaindialog	signature:(wxMouseEvent& e)
+m_sstaticText1	gui.h	/^		wxStaticText* m_sstaticText1;$/;"	m	class:maindialog	access:protected
+m_staticText10	gui.h	/^		wxStaticText* m_staticText10;$/;"	m	class:maindialog	access:protected
+m_staticText11	gui.h	/^		wxStaticText* m_staticText11;$/;"	m	class:maindialog	access:protected
+m_staticText12	gui.h	/^		wxStaticText* m_staticText12;$/;"	m	class:maindialog	access:protected
+m_staticText13	gui.h	/^		wxStaticText* m_staticText13;$/;"	m	class:maindialog	access:protected
+m_staticText14	gui.h	/^		wxStaticText* m_staticText14;$/;"	m	class:maindialog	access:protected
+m_staticText15	gui.h	/^		wxStaticText* m_staticText15;$/;"	m	class:maindialog	access:protected
+m_staticText16	gui.h	/^		wxStaticText* m_staticText16;$/;"	m	class:maindialog	access:protected
+m_staticText17	gui.h	/^		wxStaticText* m_staticText17;$/;"	m	class:maindialog	access:protected
+m_staticText18	gui.h	/^		wxStaticText* m_staticText18;$/;"	m	class:maindialog	access:protected
+m_staticText4	gui.h	/^		wxStaticText* m_staticText4;$/;"	m	class:maindialog	access:protected
+m_staticText5	gui.h	/^		wxStaticText* m_staticText5;$/;"	m	class:maindialog	access:protected
+m_staticText6	gui.h	/^		wxStaticText* m_staticText6;$/;"	m	class:maindialog	access:protected
+m_staticText7	gui.h	/^		wxStaticText* m_staticText7;$/;"	m	class:maindialog	access:protected
+m_staticText8	gui.h	/^		wxStaticText* m_staticText8;$/;"	m	class:maindialog	access:protected
+m_staticText9	gui.h	/^		wxStaticText* m_staticText9;$/;"	m	class:maindialog	access:protected
+m_staticline1	gui.h	/^		wxStaticLine* m_staticline1;$/;"	m	class:maindialog	access:protected
+m_staticline2	gui.h	/^		wxStaticLine* m_staticline2;$/;"	m	class:maindialog	access:protected
+maindialog	gui.cpp	/^maindialog::maindialog( wxWindow* parent, wxWindowID id, const wxString& title, const wxPoint& pos, const wxSize& size, long style ) : wxFrame( parent, id, title, pos, size, style )$/;"	f	class:maindialog	signature:( wxWindow* parent, wxWindowID id, const wxString& title, const wxPoint& pos, const wxSize& size, long style )
+maindialog	gui.h	/^		maindialog( wxWindow* parent, wxWindowID id = wxID_ANY, const wxString& title = wxT("永佳电子-家电下乡报表辅助生成"), const wxPoint& pos = wxDefaultPosition, const wxSize& size = wxSize( 800,600 ), long style = wxDEFAULT_FRAME_STYLE|wxTAB_TRAVERSAL );$/;"	p	class:maindialog	access:public	signature:( wxWindow* parent, wxWindowID id = wxID_ANY, const wxString& title = wxT(�), const wxPoint& pos = wxDefaultPosition, const wxSize& size = wxSize( 800,600 ), long style = wxDEFAULT_FRAME_STYLE|wxTAB_TRAVERSAL )
+maindialog	gui.h	/^class maindialog : public wxFrame $/;"	c	inherits:wxFrame
+maindialog::b_doc	gui.h	/^		wxButton* b_doc;$/;"	m	class:maindialog	access:protected
+maindialog::b_docOnButtonClick	gui.h	/^		virtual void b_docOnButtonClick( wxCommandEvent& event ) { event.Skip(); }$/;"	f	class:maindialog	access:protected	signature:( wxCommandEvent& event )
+maindialog::b_listen	gui.h	/^		wxButton* b_listen;$/;"	m	class:maindialog	access:protected
+maindialog::b_listenOnButtonClick	gui.h	/^		virtual void b_listenOnButtonClick( wxCommandEvent& event ) { event.Skip(); }$/;"	f	class:maindialog	access:protected	signature:( wxCommandEvent& event )
+maindialog::b_print	gui.h	/^		wxButton* b_print;$/;"	m	class:maindialog	access:protected
+maindialog::b_printOnButtonClick	gui.h	/^		virtual void b_printOnButtonClick( wxCommandEvent& event ) { event.Skip(); }$/;"	f	class:maindialog	access:protected	signature:( wxCommandEvent& event )
+maindialog::b_table1	gui.h	/^		wxButton* b_table1;$/;"	m	class:maindialog	access:protected
+maindialog::b_table1OnButtonClick	gui.h	/^		virtual void b_table1OnButtonClick( wxCommandEvent& event ) { event.Skip(); }$/;"	f	class:maindialog	access:protected	signature:( wxCommandEvent& event )
+maindialog::c_all	gui.h	/^		wxCheckBox* c_all;$/;"	m	class:maindialog	access:protected
+maindialog::c_allOnCheckBox	gui.h	/^		virtual void c_allOnCheckBox( wxCommandEvent& event ) { event.Skip(); }$/;"	f	class:maindialog	access:protected	signature:( wxCommandEvent& event )
+maindialog::dir_doc	gui.h	/^		wxStaticText* dir_doc;$/;"	m	class:maindialog	access:protected
+maindialog::m_notebook	gui.h	/^		wxNotebook* m_notebook;$/;"	m	class:maindialog	access:protected
+maindialog::m_notebookOnNotebookPageChanged	gui.h	/^		virtual void m_notebookOnNotebookPageChanged( wxNotebookEvent& event ) { event.Skip(); }$/;"	f	class:maindialog	access:protected	signature:( wxNotebookEvent& event )
+maindialog::m_select_xz	gui.h	/^		virtual void m_select_xz( wxMouseEvent& event ) { event.Skip(); }$/;"	f	class:maindialog	access:protected	signature:( wxMouseEvent& event )
+maindialog::m_sstaticText1	gui.h	/^		wxStaticText* m_sstaticText1;$/;"	m	class:maindialog	access:protected
+maindialog::m_staticText10	gui.h	/^		wxStaticText* m_staticText10;$/;"	m	class:maindialog	access:protected
+maindialog::m_staticText11	gui.h	/^		wxStaticText* m_staticText11;$/;"	m	class:maindialog	access:protected
+maindialog::m_staticText12	gui.h	/^		wxStaticText* m_staticText12;$/;"	m	class:maindialog	access:protected
+maindialog::m_staticText13	gui.h	/^		wxStaticText* m_staticText13;$/;"	m	class:maindialog	access:protected
+maindialog::m_staticText14	gui.h	/^		wxStaticText* m_staticText14;$/;"	m	class:maindialog	access:protected
+maindialog::m_staticText15	gui.h	/^		wxStaticText* m_staticText15;$/;"	m	class:maindialog	access:protected
+maindialog::m_staticText16	gui.h	/^		wxStaticText* m_staticText16;$/;"	m	class:maindialog	access:protected
+maindialog::m_staticText17	gui.h	/^		wxStaticText* m_staticText17;$/;"	m	class:maindialog	access:protected
+maindialog::m_staticText18	gui.h	/^		wxStaticText* m_staticText18;$/;"	m	class:maindialog	access:protected
+maindialog::m_staticText4	gui.h	/^		wxStaticText* m_staticText4;$/;"	m	class:maindialog	access:protected
+maindialog::m_staticText5	gui.h	/^		wxStaticText* m_staticText5;$/;"	m	class:maindialog	access:protected
+maindialog::m_staticText6	gui.h	/^		wxStaticText* m_staticText6;$/;"	m	class:maindialog	access:protected
+maindialog::m_staticText7	gui.h	/^		wxStaticText* m_staticText7;$/;"	m	class:maindialog	access:protected
+maindialog::m_staticText8	gui.h	/^		wxStaticText* m_staticText8;$/;"	m	class:maindialog	access:protected
+maindialog::m_staticText9	gui.h	/^		wxStaticText* m_staticText9;$/;"	m	class:maindialog	access:protected
+maindialog::m_staticline1	gui.h	/^		wxStaticLine* m_staticline1;$/;"	m	class:maindialog	access:protected
+maindialog::m_staticline2	gui.h	/^		wxStaticLine* m_staticline2;$/;"	m	class:maindialog	access:protected
+maindialog::maindialog	gui.cpp	/^maindialog::maindialog( wxWindow* parent, wxWindowID id, const wxString& title, const wxPoint& pos, const wxSize& size, long style ) : wxFrame( parent, id, title, pos, size, style )$/;"	f	class:maindialog	signature:( wxWindow* parent, wxWindowID id, const wxString& title, const wxPoint& pos, const wxSize& size, long style )
+maindialog::maindialog	gui.h	/^		maindialog( wxWindow* parent, wxWindowID id = wxID_ANY, const wxString& title = wxT("永佳电子-家电下乡报表辅助生成"), const wxPoint& pos = wxDefaultPosition, const wxSize& size = wxSize( 800,600 ), long style = wxDEFAULT_FRAME_STYLE|wxTAB_TRAVERSAL );$/;"	p	class:maindialog	access:public	signature:( wxWindow* parent, wxWindowID id = wxID_ANY, const wxString& title = wxT(�), const wxPoint& pos = wxDefaultPosition, const wxSize& size = wxSize( 800,600 ), long style = wxDEFAULT_FRAME_STYLE|wxTAB_TRAVERSAL )
+maindialog::number	gui.h	/^		wxStaticText* number;$/;"	m	class:maindialog	access:protected
+maindialog::~maindialog	gui.cpp	/^maindialog::~maindialog()$/;"	f	class:maindialog	signature:()
+maindialog::~maindialog	gui.h	/^		~maindialog();$/;"	p	class:maindialog	access:public	signature:()
+maindialogOnClose	JJJ.hpp	/^  void maindialogOnClose( wxCloseEvent& event );$/;"	p	class:JJJmaindialog	access:protected	signature:( wxCloseEvent& event )
+maindialogOnClose	main.cpp	/^void JJJmaindialog::maindialogOnClose( wxCloseEvent& event )$/;"	f	class:JJJmaindialog	signature:( wxCloseEvent& event )
+md5s	dir.cpp	/^    vector<string> md5s;$/;"	m	class:Verify	file:	access:private
+monitor	dir.cpp	/^void monitor(string dir, NotifyFun fun)$/;"	f	signature:(string dir, NotifyFun fun)
+name	entry.hpp	/^    std::string name; \/\/购买人$/;"	m	struct:Entry	access:public
+name2	entry.hpp	/^    std::string name2; \/\/领款人$/;"	m	struct:Entry	access:public
+next_id	dir.cpp	/^static int next_id = 0;$/;"	v	file:
+notifyfun	JJJ.hpp	/^  void notifyfun(int n, std::string f);$/;"	p	class:JJJmaindialog	access:protected	signature:(int n, std::string f)
+notifyfun	main.cpp	/^void JJJmaindialog::notifyfun(int n, std::string f)$/;"	f	class:JJJmaindialog	signature:(int n, std::string f)
+now	strip.cpp	/^string now()$/;"	f	signature:()
+number	entry.hpp	/^    int number; \/\/人数$/;"	m	struct:Entry2	access:public
+number	gui.h	/^		wxStaticText* number;$/;"	m	class:maindialog	access:protected
+page3	JJJ.hpp	/^  wxHtmlWindow *page3;$/;"	m	class:JJJmaindialog	access:private
+passport	entry.hpp	/^    std::string passport; \/\/户口$/;"	m	struct:Entry	access:public
+phone	entry.hpp	/^    std::string phone; \/\/电话$/;"	m	struct:Entry	access:public
+price	entry.hpp	/^    std::string price; \/\/售价$/;"	m	struct:Entry	access:public
+prices	entry.hpp	/^    double prices; \/\/销售总计$/;"	m	struct:Entry2	access:public
+product_id	entry.hpp	/^    std::string product_id; \/\/产品标号$/;"	m	struct:Entry	access:public
+product_n	entry.hpp	/^    std::string product_n; \/\/产品编号$/;"	m	struct:Entry	access:public
+selected_xz	JJJ.hpp	/^  XZs selected_xz;$/;"	m	class:JJJmaindialog	access:private
+time	entry.hpp	/^    std::string time; \/\/受理时间$/;"	m	struct:Entry	access:public
+verify	dir.cpp	/^    bool verify(string filename){$/;"	f	class:Verify	access:public	signature:(string filename)
+verify	dir.cpp	/^Verify verify;$/;"	v
+which_XZ	entry.hpp	/^XZs which_XZ(std::string);$/;"	p	signature:(std::string)
+which_XZ	strip.cpp	/^XZs which_XZ(string address)$/;"	f	signature:(string address)
+write_excel	excel.cpp	/^void write_excel(vector<Entry>& entrys, vector<Entry2>& entrys2)$/;"	f	signature:(vector<Entry>& entrys, vector<Entry2>& entrys2)
+write_excel	main.cpp	/^void write_excel(vector<Entry>&, vector<Entry2>&);$/;"	p	file:	signature:(vector<Entry>&, vector<Entry2>&)
+xz	entry.hpp	/^    XZs xz;$/;"	m	struct:Entry	access:public
+xz_str	strip.cpp	/^const char *xz_str[XZ_SIZE] = {$/;"	v
+~maindialog	gui.cpp	/^maindialog::~maindialog()$/;"	f	class:maindialog	signature:()
+~maindialog	gui.h	/^		~maindialog();$/;"	p	class:maindialog	access:public	signature:()
